@@ -12,9 +12,20 @@ h1 {
 }
 
 img {
-	height: 190px;
-	width: 190px;
+	height: 195px;
+	width: 195px;
 	margin: auto;
-	border-color: #4b6682;
-	border-width: 10px;
+}
+
+.keep {
+	height: 190px;
+	width: 260px;	
+	background-color: white;
+	margin-bottom: 100px;
+	outline: 5px solid #4b6682;
+}
+
+h2 {
+	text-align: center;
+	vertical-align: middle;
 }
