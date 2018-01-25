@@ -25,8 +25,14 @@
 				<!-- Instruction Row -->
 				<div class="row">
 					<!-- Instructions -->
-					<div class="col-xs-12">
-						<p></p>
+					<div class="instructions col-xs-12">
+						<ul style="list-style: none;">
+							<li>You will be given a random number at the start of the game.</li>
+							<li>There are four crystals below. By clicking on a crystal you will add a specified amount of points to your score.</li>
+							<li>The value of each crystal is hidden from you until you click on it and you see the increase in your score.</li>
+							<li>You win the game by matching your score to the goal. You will lose if your total score exceeds the goal.</li>
+							<li>Each time the game starts again, the game will change the value of the crystals.</li>
+						</ul>
 					</div>
 				</div>
 				<!-- Gem Row -->
@@ -51,15 +57,15 @@
 				<!-- Goal, Score, Wins/Losses -->
 				<div class="row">
 					<!-- Goal -->
-					<div id="goal" class="keep col-xs-4">
+					<div id="goal" class="keepTrack col-xs-4">
 						<h2>Goal:</h2>
 					</div>
 					<!-- Score -->
-					<div id="score" class="keep col-xs-4">
+					<div id="score" class="keepTrack col-xs-4">
 						<h2>Score:</h2>
 					</div>
 					<!-- Wins/Losses -->
-					<div id="win_losses" class="keep col-xs-4">
+					<div id="win_losses" class="keepTrack col-xs-4">
 						<h2>Wins: 0</h2>
 						<h2>Losses: 0</h2>
 					</div>

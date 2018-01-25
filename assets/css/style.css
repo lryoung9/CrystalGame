@@ -4,28 +4,50 @@ body {
 }
 
 h1 {
-	font-family: 'Lakki Reddy', cursive;
 	color: aliceblue;
 	text-shadow: 6px 6px 3px #4b6682;
 	text-align: center;
 	font-size: 72px;
 }
 
-img {
-	height: 195px;
-	width: 195px;
-	margin: auto;
+h1, h2, li {
+		font-family: 'Lakki Reddy', cursive;
 }
 
-.keep {
+.gems {
+	padding-left: 0;
+	padding-right: 0;
+	float: left;
+}
+
+img {
 	height: 190px;
-	width: 260px;	
-	background-color: white;
+	width: 190px;
+}
+
+.keepTrack {
+	height: 190px;
+	width: 258.333px;	
+	
 	margin-bottom: 100px;
-	outline: 5px solid #4b6682;
+}
+
+.instructions, .keepTrack {
+	background-color: white;
+	border: medium solid whitesmoke;
+}
+
+.instructions {
+	padding-top: 24px;
 }
 
 h2 {
 	text-align: center;
-	vertical-align: middle;
+	color: #4b6682;
+}
+
+li {
+	color: #4b6682;
+	font-size: 24px;
+	margin-bottom: 24px;
 }
