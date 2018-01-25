@@ -6,7 +6,15 @@ body {
 h1 {
 	font-family: 'Lakki Reddy', cursive;
 	color: aliceblue;
-	text-shadow: 6px 6px 6px darkblue;
+	text-shadow: 6px 6px 3px #4b6682;
 	text-align: center;
 	font-size: 72px;
+}
+
+img {
+	height: 190px;
+	width: 190px;
+	margin: auto;
+	border-color: #4b6682;
+	border-width: 10px;
 }
