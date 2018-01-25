@@ -1,0 +1,12 @@
+body {
+	background-image: url("../images/gemstone-background.jpg");
+	background-position: bottom;
+}
+
+h1 {
+	font-family: 'Lakki Reddy', cursive;
+	color: aliceblue;
+	text-shadow: 6px 6px 6px darkblue;
+	text-align: center;
+	font-size: 72px;
+}

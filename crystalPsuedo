@@ -1,0 +1,35 @@
+<script>
+// on page load:
+	// Variables:
+	// -----------
+	// computerRandNum;
+	// array of crystal values = [];
+	// wins = 0
+	// losses = 0
+	// user total score = 0
+	// call reset
+	// call update
+
+// On crystal click:
+	// What crystal clicked? ---> store in a variable
+	// store crystal value in variable
+	// add crystalClickedValue to user total score
+		// Call update function
+	// Check if win (userTotalScore === computerRandomNumber)
+		// Add 1 to wins
+		// reset function
+		// Call update function
+	// If lose (userTotalScore > computerRandNum)
+		// Add 1 to losses
+		// reset function
+		// Call update function
+	// Reset function
+		// total score = 0
+		// new random array of crystal values
+		// new compRandNum
+	// Updating HTML
+		// wins
+		// losses
+		// computerRanNum
+		// total score
+</script>
