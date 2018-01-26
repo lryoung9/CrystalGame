@@ -38,12 +38,15 @@ img {
 }
 
 .instructions {
+	width: 775px;
 	padding-top: 24px;
 }
 
 h2 {
 	text-align: center;
 	color: #4b6682;
+	font-size: 42px;
+    margin-top: 42px;
 }
 
 li {
